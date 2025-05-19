@@ -7,11 +7,7 @@ This repository contains solutions to a SQL proficiency assessment designed to e
 - `plans_plan`: Records of customer-created plans (savings/investment)
 - `withdrawals_withdrawal`: Records of withdrawal transactions
 
---
 
-## Repository Structure
-
---
 
 ## SQL Solutions Overview
 
@@ -28,7 +24,7 @@ This repository contains solutions to a SQL proficiency assessment designed to e
 **Key Fields Returned**:
 - `owner_id`, `name`, `savings_count`, `investment_count`, `total_deposits`
 
---
+
 
 ### Question 2: Transaction Frequency Analysis
 
@@ -46,7 +42,7 @@ This repository contains solutions to a SQL proficiency assessment designed to e
 **Key Fields Returned**:
 - `frequency_category`, `customer_count`, `avg_transactions_per_month`
 
---
+
 
 ### Question 3: Account Inactivity Alert
 
@@ -61,7 +57,7 @@ This repository contains solutions to a SQL proficiency assessment designed to e
 **Key Fields Returned**:
 - `plan_id`, `owner_id`, `type`, `last_transaction_date`, `inactivity_days`
 
---
+
 
 ### Question 4: Customer Lifetime Value (CLV) Estimation
 
@@ -78,7 +74,7 @@ This repository contains solutions to a SQL proficiency assessment designed to e
 **Key Fields Returned**:
 - `customer_id`, `name`, `tenure_months`, `total_transactions`, `estimated_clv`
 
---
+
 
 ## Challenges Encountered
 
@@ -87,7 +83,7 @@ This repository contains solutions to a SQL proficiency assessment designed to e
 - **Handling Null Transactions**: Careful handling of accounts with no transactions to avoid null errors or inaccurate inactivity status.
 - **Monthly Aggregation**: Standardizing monthly intervals while considering varying activity spans per user for accurate frequency categorization.
 
---
+
 
 ## Final Notes
 
