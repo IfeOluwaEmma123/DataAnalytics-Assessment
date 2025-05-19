@@ -10,7 +10,11 @@ This repository contains solutions to a SQL proficiency assessment designed to e
 
 
 ## SQL Assessment Questions
--- Assessment_Q1: High-Value Customers with Multiple Products
+- Assessment_Q1: High-Value Customers with Multiple Products
+- Assessment_Q2: Transaction Frequency Analysis
+- Assessment_Q3: Account Inactivity Alert
+- Assessment_Q4: Customer Lifetime Value (CLV) Estimation
+
 
 
 ## SQL Solutions Overview
