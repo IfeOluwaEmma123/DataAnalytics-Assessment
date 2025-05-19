@@ -9,6 +9,10 @@ This repository contains solutions to a SQL proficiency assessment designed to e
 
 
 
+## SQL Assessment Questions
+-- Assessment_Q1: High-Value Customers with Multiple Products
+
+
 ## SQL Solutions Overview
 
 ### Question 1: High-Value Customers with Multiple Products
