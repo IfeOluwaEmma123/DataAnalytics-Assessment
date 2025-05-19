@@ -93,10 +93,26 @@ This repository contains solutions to a SQL proficiency assessment designed to e
 
 
 
+## Tools & Skills Applied
+
+- SQL Joins and Subqueries
+- Window Functions and Aggregations
+- CTEs (Common Table Expressions)
+- CASE WHEN Logic
+- Date Arithmetic and Truncation
+- Data Transformation and Categorization
+- Code Readability and Optimization
+
+
+Feel free to explore the `.sql` files for each solution inside this repository.
+
+
+
 ## Final Notes
 
 - All queries were written for clarity, performance, and maintainability.
 - Complex operations such as conditional aggregation and date interval calculations were thoroughly documented via comments in the SQL files.
 - Solutions strictly follow the evaluation criteria: **accuracy**, **efficiency**, **completeness**, and **readability**.
+
 
 Thank you for reviewing my solutions!
