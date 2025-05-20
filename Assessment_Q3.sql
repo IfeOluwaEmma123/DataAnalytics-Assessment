@@ -2,13 +2,13 @@ SELECT
   p.id AS plan_id,
   p.owner_id,
   CASE
-    WHEN p.is_regular_savings = 1 THEN 'Savings'
+    WHEN p.is_regular_savings = 1 THEN 'Savings' -- Determine type based on flag
     ELSE 'Investment'
   END AS type,
   DATE_FORMAT(MAX(s.transaction_date), '%Y-%m-%d') AS last_transaction_date,
   DATEDIFF(CURDATE(), MAX(s.transaction_date)) AS inactivity_days
 FROM plans_plan p
 LEFT JOIN savings_savingsaccount s
-  ON s.plan_id = p.id
+  ON s.plan_id = p.id -- Link transactions to plans
 GROUP BY p.id, p.owner_id, p.is_regular_savings
-HAVING MAX(s.transaction_date) < DATE_SUB(CURDATE(), INTERVAL 365 DAY);
+HAVING MAX(s.transaction_date) < DATE_SUB(CURDATE(), INTERVAL 365 DAY); -- Filter plans inactive for over a year
